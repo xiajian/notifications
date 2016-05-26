@@ -2,8 +2,6 @@ require "notifications/model"
 require "notifications/engine"
 require "notifications/configuration"
 require "notifications/version"
-require 'will_paginate'
-require 'will_paginate/active_record'
 
 module Notifications
   class << self
